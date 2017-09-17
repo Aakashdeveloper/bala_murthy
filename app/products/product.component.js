@@ -12,6 +12,7 @@ var ProductListComponent = (function () {
         this.pageTitle = "Product List";
         this.imageWidth = 50;
         this.showImage = false;
+        this.listFilter = "leaf";
         this.products = [
             {
                 "productId": 1,
@@ -53,7 +54,8 @@ var ProductListComponent = (function () {
 ProductListComponent = __decorate([
     core_1.Component({
         selector: 'pm-product',
-        templateUrl: 'app/products/product-list.component.html'
+        templateUrl: 'app/products/product-list.component.html',
+        styleUrls: ['app/products/product-list.component.css']
     })
 ], ProductListComponent);
 exports.ProductListComponent = ProductListComponent;
