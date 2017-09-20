@@ -49,6 +49,9 @@ var ProductListComponent = (function () {
     ProductListComponent.prototype.toggleImage = function () {
         this.showImage = !this.showImage;
     };
+    ProductListComponent.prototype.ngOnInit = function () {
+        console.log("hi this is on init");
+    };
     return ProductListComponent;
 }());
 ProductListComponent = __decorate([
